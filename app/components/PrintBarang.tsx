@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
-import { useEffect } from 'react';
 
 import './print.css';
 
@@ -39,29 +38,25 @@ export default function PrintBarang({ page = 1 }) {
         ],
     };
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            window.print();
-        }, 1000);
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         window.print();
+    //     }, 1000);
 
-        return () => clearTimeout(timer);
-    }, []);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
     return (
         <main className="wrapperPrint">
-
             <section className="top-header">
-
                 <div className="header-title">
                     Kirim Barang [NON SO]
                 </div>
-
                 <div className="barcodeContainer">
                     <img
                         src={`https://barcode.tec-it.com/barcode.ashx?data=${printData.nomor_kirim}&code=Code128`}
                         alt=""
                     />
-
                     <div>{printData.nomor_kirim}</div>
                 </div>
 
@@ -70,16 +65,13 @@ export default function PrintBarang({ page = 1 }) {
                         src={`https://barcode.tec-it.com/barcode.ashx?data=${printData.nomor_referensi}&code=Code128`}
                         alt=""
                     />
-
                     <div>{printData.nomor_referensi}</div>
                 </div>
 
             </section>
 
             <section className="address">
-
                 <strong>{printData.company_name}</strong>
-
                 <div>
                     Optik Melawai - Giant Pondok Gede
                     <br />
@@ -87,9 +79,7 @@ export default function PrintBarang({ page = 1 }) {
                     <br />
                     Bekasi
                 </div>
-
                 <div>NPWP : 01.309.872.8-432.001</div>
-
                 <div>Telp : 021-84995489</div>
 
             </section>

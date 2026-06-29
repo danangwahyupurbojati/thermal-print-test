@@ -1,4 +1,5 @@
 import PrintBarang from '../components/PrintBarang';
+import PrintTrigger from "../components/PrintTrigger";
 
 export default function Page() {
     return (
@@ -12,6 +13,8 @@ export default function Page() {
             <div className="page-break" />
 
             <PrintBarang page={3} />
+
+            <PrintTrigger />
         </>
     );
 }

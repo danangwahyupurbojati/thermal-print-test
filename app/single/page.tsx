@@ -1,5 +1,12 @@
-import PrintBarang from '../components/PrintBarang';
+import PrintBarang from "../components/PrintBarang";
+import PrintTrigger from "../components/PrintTrigger";
 
 export default function Page() {
-    return <PrintBarang page={1} />;
+    return (
+        <>
+            <PrintTrigger />
+
+            <PrintBarang page={1} />
+        </>
+    );
 }
