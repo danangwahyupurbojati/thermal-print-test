@@ -11,7 +11,7 @@ body{
 }
 
 .wrapperPrint{
-    width: 72mm;
+    width: 80mm;
     margin: 0px auto;
 
     padding:8px;
@@ -184,7 +184,7 @@ td{
 
 @page{
 
-    size: 72mm 33cm;
+    size: 80mm 33cm;
 
     margin:0;
 
