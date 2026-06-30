@@ -12,6 +12,7 @@ body{
 
 .wrapperPrint{
     width: 100%;
+    max-width: 71mm;
     margin: 0px auto;
 
     padding:8px;
@@ -19,7 +20,7 @@ body{
     background:white;
 
     color:#000;
-    border: 2px dashed black;
+    border: 2px solid black;
     padding-bottom: 200px;
 
 }
@@ -184,7 +185,7 @@ td{
 
 @page{
 
-    size: 72mm 200mm;
+    size: 71mm 200mm;
 
     margin:0;
 
@@ -201,7 +202,8 @@ td{
 
     .wrapperPrint{
         width: 100%;
-        margin:0 auto;
+        max-width: 71mm;
+        margin: 0 auto;
         box-shadow:none;
 
 
