@@ -19,14 +19,13 @@ body{
     background:white;
 
     color: #000;
-    border: 2px solid black;
 
 }
 
 .wrapperPrint::after {
     content: "";
     display: block;
-    height: 35mm; /* cutting space */
+    height: 100mm; /* cutting space */
 }
 
 .top-header{
