@@ -11,17 +11,22 @@ body{
 }
 
 .wrapperPrint{
-    width: 71mm;
+    width: 71.9mm;
     margin: 0px auto;
 
-    padding:8px;
+    padding: 8px;
 
     background:white;
 
     color:#000;
-    border: 2px dashed black;
-    padding-bottom: 200px;
+    border: 2px solid black;
 
+}
+
+.wrapperPrint::after {
+    content: "";
+    display: block;
+    height: 35mm; /* cutting space */
 }
 
 .top-header{
@@ -184,7 +189,7 @@ td{
 
 @page{
 
-    size: 71mm 400mm;
+    size: 71.9mm 400mm;
 
     margin:0;
 
@@ -196,14 +201,14 @@ td{
     body{
 
         background:white;
-        width: 71mm;
+        width: 71.9mm;
         margin: 0;
         padding: 0;
 
     }
 
     .wrapperPrint{
-        width: 71mm;
+        width: 71.9mm;
         margin: 0 auto;
         box-shadow:none;
 
