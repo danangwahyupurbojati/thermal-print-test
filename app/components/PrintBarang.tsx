@@ -180,7 +180,7 @@ export default function PrintBarang({ page = 1 }) {
                 </div>
 
             </div>
-           <div className="cut-space">
+           <div className="cut-space hehe-test">
               &nbsp;
             </div>
         </main>
