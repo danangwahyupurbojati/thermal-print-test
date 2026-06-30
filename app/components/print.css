@@ -22,12 +22,6 @@ body{
 
 }
 
-.wrapperPrint::after {
-    content: "";
-    display: block;
-    height: 100mm; /* cutting space */
-}
-
 .top-header{
 
     display:flex;
