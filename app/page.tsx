@@ -10,7 +10,7 @@ export default function Home() {
         >
             <h1>Thermal Print Test</h1>
 
-            <p>Pilih halaman yang ingin diuji.</p>
+            <p>Pilih halaman yang ingin diuji. ada perubahan classname</p>
 
             <ul>
                 <li>
