@@ -26,7 +26,7 @@ body{
 .wrapperPrint::after {
     content: "";
     display: block;
-    height: 40mm; /* cutting space */
+    height: 35mm; /* cutting space */
 }
 
 .top-header{
