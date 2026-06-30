@@ -25,7 +25,7 @@ body{
 .cut-space {
     height: 30mm;
     border-top: 1px solid transparent;
-    border-bottom: 1px solid transparent;
+    border-bottom: 0.1px dotted rgba(0, 0, 0, 0.1);
 }
 
 .top-header{
